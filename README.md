@@ -1,3 +1,7 @@
+# Rubyまとめ
+- プロを目指す人のためのRuby入門
+- パーフェクトRuby
+
 ## Rubyの正規表現まとめ
 
 - \d は「半角数字1文字」を表す
@@ -333,5 +337,17 @@ floorメソッド
 https://www.javadrive.jp/ruby/numeric_class/index3.html
 　
 
+---
+4/13
+
+- 文字列をまとめてfrozenしたい場合は`frozen_string_literal`を使う
+
+- 文字列がマッチするか知りたい場合は`===`を使える
+
+```ruby
+/[0-9]/ === 'もじ' #=> false
+```
+
+- scanメソッドはマッチした文字列を配列で返す
 
 
